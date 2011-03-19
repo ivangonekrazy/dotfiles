@@ -31,6 +31,7 @@ set showmatch
 " searching 
 set smartcase
 set ignorecase
+set hlsearch
 
 " multiple windows
 set splitbelow
