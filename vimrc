@@ -11,7 +11,8 @@ set nobackup
 
 " messages, info
 set ruler
-set visualbell
+set noerrorbells
+set novisualbell
 
 " syntax, highlighting
 syntax on
