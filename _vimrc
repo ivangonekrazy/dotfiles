@@ -1,9 +1,11 @@
 " Ivan's .vimrc file
 " ivan@hipnik.net
 
+" initialize pathogen
+call pathogen#infect()
+
 " important settings
 set nocompatible
-call pathogen#infect()
 
 " reading/writing files
 set modeline
@@ -24,6 +26,7 @@ set expandtab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+filetype plugin indent on
 
 " editing text
 set backspace=indent,eol,start
