@@ -28,3 +28,6 @@
 [submodule "_vim/bundle/vim-ragtag"]
 	path = _vim/bundle/vim-ragtag
 	url = https://github.com/tpope/vim-ragtag.git
+[submodule "_vim/bundle/vim-json-bundle"]
+	path = _vim/bundle/vim-json-bundle
+	url = https://github.com/vim-scripts/vim-json-bundle.git
