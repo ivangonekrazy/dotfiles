@@ -3,8 +3,8 @@ Random config files from Ivan
 
 So far just my .vimrc file
 
-run:
+run: `source install.sh`
 
-    source install.sh
-
-to install the .vimrc file. Chill bro, a backup will be created.
+to install the `.vimrc` file and `.vim` directory.
+Pathogen is included.
+Chill bro, a backup will be created.

@@ -3,6 +3,7 @@
 
 " important settings
 set nocompatible
+call pathogen#infect()
 
 " reading/writing files
 set modeline
