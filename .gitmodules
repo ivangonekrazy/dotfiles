@@ -31,3 +31,6 @@
 [submodule "_vim/bundle/vim-json-bundle"]
 	path = _vim/bundle/vim-json-bundle
 	url = https://github.com/vim-scripts/vim-json-bundle.git
+[submodule "_vim/bundle/vim-matchit"]
+	path = _vim/bundle/vim-matchit
+	url = https://github.com/tsaleh/vim-matchit.git
