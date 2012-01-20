@@ -3,6 +3,7 @@
 
 " initialize pathogen
 call pathogen#infect()
+call pathogen#helptags()
 
 " important settings
 set nocompatible
@@ -13,14 +14,19 @@ nnoremap ; :
 " reading/writing files
 set modeline
 set modelines=10
+set noswapfile
 set nobackup
 
 " messages, info
+set title
 set ruler
 set visualbell
 
 " syntax, highlighting
 syntax on
+filetype on
+filetype plugin on
+filetype indent on
 
 " tabs, indenting
 set autoindent
@@ -29,7 +35,6 @@ set expandtab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-filetype plugin indent on
 
 " editing text
 set backspace=indent,eol,start
@@ -39,10 +44,12 @@ set showmatch
 set smartcase
 set ignorecase
 set hlsearch
+set incsearch
 
 " multiple windows
 set splitbelow
 set splitright
+set hidden " allow switch from dirty buffers
 
 " GUI
 colorscheme desert
