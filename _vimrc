@@ -7,6 +7,9 @@ call pathogen#infect()
 " important settings
 set nocompatible
 
+" shortcut away from <shift>;
+nnoremap ; :
+
 " reading/writing files
 set modeline
 set modelines=10
