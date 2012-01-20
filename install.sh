@@ -29,4 +29,17 @@ fi
 echo "Linking .vim/ ..."
 ln -s $PWD/_vim $_VIM_DIR
 
+#########################
+# install .tmux.conf
+_TMUX_CONF="$HOME/.tmux.conf"
+if [ -e $_TMUX_CONF ]
+then
+	echo "Backing up $TMUX_CONF..."
+	cp $_TMUX_CONF $_TMUX_CONF-$CURRENT_DATE
+    rm $_TMUX_CONF
+fi
+
+echo "Linking .tmux.conf ..."
+ln -s $PWD/_tmux_conf $_TMUX_CONF
+
 echo "done."
