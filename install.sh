@@ -40,6 +40,6 @@ then
 fi
 
 echo "Linking .tmux.conf ..."
-ln -s $PWD/_tmux_conf $_TMUX_CONF
+ln -s $PWD/_tmux.conf $_TMUX_CONF
 
 echo "done."
