@@ -19,18 +19,22 @@
 [submodule "_vim/bundle/vim-git"]
 	path = _vim/bundle/vim-git
 	url = https://github.com/tpope/vim-git.git
+    ignore = dirty
 [submodule "_vim/bundle/snipmate"]
 	path = _vim/bundle/snipmate
 	url = https://github.com/ivangonekrazy/snipmate.vim.git
+    ignore = dirty
 [submodule "_vim/bundle/vim-repeat"]
 	path = _vim/bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
 [submodule "_vim/bundle/vim-ragtag"]
 	path = _vim/bundle/vim-ragtag
 	url = https://github.com/tpope/vim-ragtag.git
+    ignore = dirty
 [submodule "_vim/bundle/vim-json-bundle"]
 	path = _vim/bundle/vim-json-bundle
 	url = https://github.com/vim-scripts/vim-json-bundle.git
 [submodule "_vim/bundle/vim-matchit"]
 	path = _vim/bundle/vim-matchit
 	url = https://github.com/tsaleh/vim-matchit.git
+    ignore = dirty
