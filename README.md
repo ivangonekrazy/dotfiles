@@ -13,4 +13,4 @@ to install the `.vimrc` file and `.vim` directory.
 
 * `bootstrap` is a list of Ubunut/Debian packages
   for tools that frequently use but are not installed
-  by default. Usage: `sudo aptitude instann $(< bootstrap)`
+  by default. Usage: `sudo aptitude install $(< bootstrap)`
