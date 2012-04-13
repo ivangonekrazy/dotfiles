@@ -62,3 +62,8 @@ set guioptions=aeimtr
 
 " python files
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,with,try,except,finally,def,class
+
+" vimclojure
+let vimclojure#ParenRainbow = 1
+let vimclojure#HighlightBuiltins = 1
+let vimclojure#DynamicHighlighting = 1
