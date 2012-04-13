@@ -38,3 +38,6 @@
 	path = _vim/bundle/vim-matchit
 	url = https://github.com/tsaleh/vim-matchit.git
     ignore = dirty
+[submodule "_vim/bundle/VimClojure"]
+	path = _vim/bundle/VimClojure
+	url = https://github.com/vim-scripts/VimClojure.git
