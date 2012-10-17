@@ -40,6 +40,12 @@ set shiftwidth=4
 set backspace=indent,eol,start
 set showmatch
 
+" code folding
+set foldmethod=indent
+set nofoldenable
+set foldlevel=1
+set foldnestmax=10
+
 " searching 
 set smartcase
 set ignorecase
