@@ -41,3 +41,6 @@
 [submodule "_vim/bundle/VimClojure"]
 	path = _vim/bundle/VimClojure
 	url = https://github.com/vim-scripts/VimClojure.git
+[submodule "_vim/bundle/python-mode"]
+	path = _vim/bundle/python-mode
+	url = git://github.com/klen/python-mode.git
