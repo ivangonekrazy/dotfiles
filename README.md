@@ -4,6 +4,8 @@ Random config files from Ivan
 So far just my `.vimrc` and `.tmux.conf` files
 
 run: `source install.sh`
+     `git submodule init`
+     `git submodule update`
 
 to install the `.vimrc` file and `.vim` directory.
 
