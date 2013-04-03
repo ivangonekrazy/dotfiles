@@ -1,18 +1,17 @@
 Random config files from Ivan
 =============================
 
-So far just my `.vimrc` and `.tmux.conf` files
+Ivan's default configs for:
+* tmux
+* vim
 
-run: `source install.sh`
-     `git submodule init`
-     `git submodule update`
+Run the following...
+ 1. `source install.sh`: Backup and build symlinks in your homedir.
+ 2. `git submodule update --init`: Init and pull Pathogen bundles for Vim.
 
-to install the `.vimrc` file and `.vim` directory.
+A backup will be created for any existing `~/.vim`, `~/.vimrc`, or `~/.tmux.conf`
 
-* Chill bro, a backup will be created.
-* Pathogen is included.
-* Variety of bundles included as submodules.
+`bootstrap` is a list of Ubuntu/Debian packages that I frequently use but are not installed
+by default.
 
-* `bootstrap` is a list of Ubuntu/Debian packages
-  for tools that frequently use but are not installed
-  by default. Usage: `sudo aptitude install $(< bootstrap)`
+Usage: `sudo aptitude install $(< bootstrap)`
