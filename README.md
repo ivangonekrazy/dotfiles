@@ -11,8 +11,8 @@ to install the `.vimrc` file and `.vim` directory.
 
 * Chill bro, a backup will be created.
 * Pathogen is included.
-* Variety of bundles included as submodules
+* Variety of bundles included as submodules.
 
-* `bootstrap` is a list of Ubunut/Debian packages
+* `bootstrap` is a list of Ubuntu/Debian packages
   for tools that frequently use but are not installed
   by default. Usage: `sudo aptitude install $(< bootstrap)`
