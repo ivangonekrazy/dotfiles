@@ -69,7 +69,7 @@ set guioptions=aeimtr
 " python files
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,with,try,except,finally,def,class
 autocmd FileType html setlocal tabstop=2 softtabstop=2 shiftwidth=2
-autocmd FileType js setlocal tabstop=2 softtabstop=2 shiftwidth=2
+autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
 
 " vimclojure
 let vimclojure#ParenRainbow = 1
