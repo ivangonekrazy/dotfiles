@@ -38,9 +38,15 @@
 	path = _vim/bundle/vim-matchit
 	url = https://github.com/tsaleh/vim-matchit.git
     ignore = dirty
-[submodule "_vim/bundle/VimClojure"]
-	path = _vim/bundle/VimClojure
-	url = https://github.com/vim-scripts/VimClojure.git
 [submodule "_vim/bundle/python-mode"]
 	path = _vim/bundle/python-mode
 	url = git://github.com/klen/python-mode.git
+[submodule "_vim/bundle/vim-fireplace"]
+	path = _vim/bundle/vim-fireplace
+	url = https://github.com/tpope/vim-fireplace.git
+[submodule "_vim/bundle/vim-classpath"]
+	path = _vim/bundle/vim-classpath
+	url = git://github.com/tpope/vim-classpath.git
+[submodule "_vim/bundle/vim-clojure-static"]
+	path = _vim/bundle/vim-clojure-static
+	url = git://github.com/guns/vim-clojure-static.git
