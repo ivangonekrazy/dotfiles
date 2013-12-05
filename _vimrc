@@ -69,4 +69,8 @@ set guioptions=aeimtr
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,with,try,except,finally,def,class
 autocmd FileType html setlocal tabstop=2 softtabstop=2 shiftwidth=2
 autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
-autocmd BufRead *.clj set filetype=clojure RainbowParenthesesToggle 
+
+autocmd BufRead * RainbowParenthesesToggle
+autocmd Syntax * RainbowParenthesesLoadRound
+autocmd Syntax * RainbowParenthesesLoadSquare
+autocmd Syntax * RainbowParenthesesLoadBraces
