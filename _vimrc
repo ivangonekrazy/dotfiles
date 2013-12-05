@@ -65,13 +65,8 @@ set guioptions=aeimtr
     " m = menubar
     " L = left scrollbar when vertically split
     " r = right scrollbar
-
-" python files
+    "
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,with,try,except,finally,def,class
 autocmd FileType html setlocal tabstop=2 softtabstop=2 shiftwidth=2
 autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
-
-" vimclojure
-let vimclojure#ParenRainbow = 1
-let vimclojure#HighlightBuiltins = 1
-let vimclojure#DynamicHighlighting = 1
+autocmd BufRead *.clj set filetype=clojure RainbowParenthesesToggle 
