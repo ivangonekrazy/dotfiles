@@ -19,6 +19,7 @@
 [submodule "_vim/bundle/vim-git"]
 	path = _vim/bundle/vim-git
 	url = https://github.com/tpope/vim-git.git
+    ignore = dirty
 [submodule "_vim/bundle/vim-repeat"]
 	path = _vim/bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
@@ -37,6 +38,10 @@
 [submodule "_vim/bundle/vim-fireplace"]
 	path = _vim/bundle/vim-fireplace
 	url = https://github.com/tpope/vim-fireplace.git
+[submodule "_vim/bundle/vim-clojure-static"]
+	path = _vim/bundle/vim-clojure-static
+	url = https://github.com/guns/vim-clojure-static.git
+    ignore = dirty
 [submodule "_vim/bundle/rainbow_parentheses"]
 	path = _vim/bundle/rainbow_parentheses
 	url = https://github.com/kien/rainbow_parentheses.vim.git
