@@ -28,7 +28,8 @@ filetype on
 filetype plugin on
 filetype indent on
 
-" tabs, indenting
+" tabs, indenting defaults
+" may be overridden by editorconfig
 set autoindent
 set smartindent
 set expandtab
@@ -65,12 +66,17 @@ set guioptions=aeimtr
     " m = menubar
     " L = left scrollbar when vertically split
     " r = right scrollbar
-    "
-autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,with,try,except,finally,def,class
+
+" filetype specific settings
+autocmd FileType python setlocal smartindent cinwords=if,elif,else,for,while,with,try,except,finally,def,class
 autocmd FileType html setlocal tabstop=2 softtabstop=2 shiftwidth=2
 autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
 
+" color-matched parens/bracket/braces
 autocmd BufRead * RainbowParenthesesToggle
 autocmd Syntax * RainbowParenthesesLoadRound
 autocmd Syntax * RainbowParenthesesLoadSquare
 autocmd Syntax * RainbowParenthesesLoadBraces
+
+" ctrlp
+let g:ctrlp_clear_cache_on_exit = 0
