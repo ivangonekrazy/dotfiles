@@ -16,6 +16,7 @@ highlight GitGutterChangeDelete ctermbg=239 ctermfg=3
 let g:limelight_conceal_ctermfg = 240
 autocmd User GoyoEnter Limelight
 autocmd User GoyoLeave Limelight!
+autocmd User GoyoLeave SignColumn ctermbg=NONE
 
 " -- rainbow parentheses
 autocmd VimEnter * RainbowParenthesesToggle

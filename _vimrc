@@ -35,7 +35,7 @@ set shiftwidth=4
 " line width
 if (exists('+colorcolumn'))
     set colorcolumn=110
-    highlight ColorColumn ctermbg=239 ctermfg=0
+    highlight ColorColumn ctermbg=239 guibg=DarkGray
 endif
 
 " editing text
@@ -48,7 +48,7 @@ set nofoldenable
 set foldlevel=1
 set foldnestmax=10
 
-" searching 
+" searching
 set smartcase
 set ignorecase
 set hlsearch
