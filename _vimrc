@@ -24,7 +24,8 @@ filetype on
 filetype plugin on
 filetype indent on
 
-" tabs, indenting
+" tabs, indenting defaults
+" may be overridden by editorconfig
 set autoindent
 set smartindent
 set expandtab
