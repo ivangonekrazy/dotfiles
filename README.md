@@ -7,7 +7,7 @@ Ivan's default configs for:
 
 Run the following...
  1. `source install.sh`: Backup and build symlinks in your homedir.
- 2. `git submodule update --init`: Init and pull Pathogen bundles for Vim.
+ 2. Run `vim` to install vim-plug and accompanying vim plugins.
 
 A backup will be created for any existing `~/.vim`, `~/.vimrc`, or `~/.tmux.conf`
 
