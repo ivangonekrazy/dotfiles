@@ -1,10 +1,6 @@
 " Ivan's .vimrc file
 " ivan@hipnik.net
 
-" initialize pathogen
-call pathogen#infect()
-call pathogen#helptags()
-
 " important settings
 set nocompatible
 
@@ -36,6 +32,12 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
+" line width
+if (exists('+colorcolumn'))
+    set colorcolumn=110
+    highlight ColorColumn ctermbg=239 ctermfg=0
+endif
+
 " editing text
 set backspace=indent,eol,start
 set showmatch
@@ -65,12 +67,15 @@ set guioptions=aeimtr
     " m = menubar
     " L = left scrollbar when vertically split
     " r = right scrollbar
-    "
-autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,with,try,except,finally,def,class
+
+" load plugins
+source ~/.vim/plugins.vim
+
+" load plugin options
+source ~/.vim/plugins-options.vim
+
+" filetype sensitive options
+autocmd FileType python set smartindent cinwords=if,elif,else,for,while,with,try,except,finally,def,class
 autocmd FileType html setlocal tabstop=2 softtabstop=2 shiftwidth=2
 autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
 
-autocmd BufRead * RainbowParenthesesToggle
-autocmd Syntax * RainbowParenthesesLoadRound
-autocmd Syntax * RainbowParenthesesLoadSquare
-autocmd Syntax * RainbowParenthesesLoadBraces
