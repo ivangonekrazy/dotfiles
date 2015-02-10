@@ -5,18 +5,17 @@ try
 catch
 endtry
 
-" -- vim-gutter
-highlight SignColumn ctermbg=NONE
-highlight GitGutterAdd ctermbg=239 ctermfg=2
-highlight GitGutterChange ctermbg=239 ctermfg=3
-highlight GitGutterDelete ctermbg=239 ctermfg=1
-highlight GitGutterChangeDelete ctermbg=239 ctermfg=3
+" -- vim-gutter colorscheme
+highlight SignColumn            ctermbg=NONE guibg=NONE
+highlight GitGutterAdd          ctermbg=NONE ctermfg=29  guibg=NONE guifg=DarkGreen
+highlight GitGutterChange       ctermbg=NONE ctermfg=130 guibg=NONE guifg=Orange
+highlight GitGutterDelete       ctermbg=NONE ctermfg=196 guibg=NONE guifg=DarkRed
+highlight GitGutterChangeDelete ctermbg=NONE ctermfg=202 guibg=NONE guifg=Orange
 
 " -- limelight/goyo
 let g:limelight_conceal_ctermfg = 240
 autocmd User GoyoEnter Limelight
 autocmd User GoyoLeave Limelight!
-autocmd User GoyoLeave SignColumn ctermbg=NONE
 
 " -- rainbow parentheses
 autocmd VimEnter * RainbowParenthesesToggle
