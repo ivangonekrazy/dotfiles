@@ -26,9 +26,10 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
-" file navigation
+" navigation
 Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'Lokaltog/vim-easymotion'
 
 " git
 Plug 'tpope/vim-fugitive'
