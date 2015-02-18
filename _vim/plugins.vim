@@ -44,7 +44,7 @@ Plug 'jmcantrell/vim-virtualenv'
 " Clojure
 Plug 'tpope/vim-fireplace'
 Plug 'guns/vim-clojure-static'
-Plug 'guns/vim-sexp'
+Plug 'vim-scripts/paredit.vim'
 
 " misc. specific filetypes
 Plug 'plasticboy/vim-markdown'
