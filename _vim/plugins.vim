@@ -26,8 +26,9 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
-" navigation
+" navigation/search
 Plug 'kien/ctrlp.vim'
+Plug 'rking/ag.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'Lokaltog/vim-easymotion'
 
