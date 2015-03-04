@@ -39,9 +39,6 @@ Plug 'airblade/vim-gitgutter'
 " Javascript
 Plug 'pangloss/vim-javascript'
 
-" Python
-Plug 'jmcantrell/vim-virtualenv'
-
 " Clojure
 Plug 'tpope/vim-fireplace'
 Plug 'guns/vim-clojure-static'
