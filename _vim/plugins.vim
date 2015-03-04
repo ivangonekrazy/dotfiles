@@ -26,9 +26,11 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
-" file navigation
+" navigation/search
 Plug 'kien/ctrlp.vim'
+Plug 'rking/ag.vim'
 Plug 'scrooloose/nerdtree'
+Plug 'Lokaltog/vim-easymotion'
 
 " git
 Plug 'tpope/vim-fugitive'
@@ -43,7 +45,7 @@ Plug 'jmcantrell/vim-virtualenv'
 " Clojure
 Plug 'tpope/vim-fireplace'
 Plug 'guns/vim-clojure-static'
-Plug 'guns/vim-sexp'
+Plug 'vim-scripts/paredit.vim'
 
 " misc. specific filetypes
 Plug 'plasticboy/vim-markdown'
