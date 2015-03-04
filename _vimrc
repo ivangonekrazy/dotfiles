@@ -4,8 +4,9 @@
 " important settings
 set nocompatible
 
-" shortcut away from <shift>;
+" shortcuts and re-mappings
 nnoremap ; :
+imap ;; <Esc>
 
 " reading/writing files
 set modeline
