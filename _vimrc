@@ -3,6 +3,7 @@
 
 " important settings
 set nocompatible
+set shell=bash
 
 " shortcuts and re-mappings
 nnoremap ; :
