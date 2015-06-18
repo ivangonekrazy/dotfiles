@@ -7,7 +7,6 @@ set shell=bash
 
 " shortcuts and re-mappings
 nnoremap ; :
-imap ;; <Esc>
 
 " reading/writing files
 set modeline
