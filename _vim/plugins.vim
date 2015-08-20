@@ -15,16 +15,16 @@ Plug 'junegunn/limelight.vim'
 
 " formatting
 Plug 'editorconfig/editorconfig-vim'
-Plug 'bronson/vim-trailing-whitespace'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-ragtag'
 Plug 'tpope/vim-surround'
 Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdcommenter'
+Plug 'ntpeters/vim-better-whitespace'
 
 " snippets
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+"Plug 'SirVer/ultisnips'
+"Plug 'honza/vim-snippets'
 
 " navigation/search
 Plug 'kien/ctrlp.vim'
@@ -40,8 +40,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'pangloss/vim-javascript'
 
 " Clojure
-Plug 'tpope/vim-fireplace'
-Plug 'guns/vim-clojure-static'
+Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
 Plug 'vim-scripts/paredit.vim'
 
 " misc. specific filetypes
