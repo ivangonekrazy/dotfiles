@@ -5,9 +5,6 @@
 set nocompatible
 set shell=bash
 
-" shortcuts and re-mappings
-nnoremap ; :
-
 " reading/writing files
 set modeline
 set modelines=10
