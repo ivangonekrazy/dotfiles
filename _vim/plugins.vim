@@ -25,6 +25,7 @@ Plug 'ntpeters/vim-better-whitespace'
 " snippets
 "Plug 'SirVer/ultisnips'
 "Plug 'honza/vim-snippets'
+Plug 'mattn/emmet-vim'
 
 " navigation/search
 Plug 'kien/ctrlp.vim'
