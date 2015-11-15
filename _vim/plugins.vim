@@ -45,6 +45,9 @@ Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
 Plug 'vim-scripts/paredit.vim'
 
+" Golang
+Plug 'fatih/vim-go'
+
 " misc. specific filetypes
 Plug 'plasticboy/vim-markdown'
 Plug 'elzr/vim-json'
