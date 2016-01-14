@@ -26,6 +26,7 @@ Plug 'ntpeters/vim-better-whitespace'
 "Plug 'SirVer/ultisnips'
 "Plug 'honza/vim-snippets'
 Plug 'mattn/emmet-vim'
+Plug 'Raimondi/delimitMate'
 
 " navigation/search
 Plug 'kien/ctrlp.vim'
