@@ -33,6 +33,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'rking/ag.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'Lokaltog/vim-easymotion'
+Plug 'terryma/vim-multiple-cursors'
 
 " git
 Plug 'tpope/vim-fugitive'
