@@ -33,7 +33,7 @@ set shiftwidth=4
 
 " line width
 if (exists('+colorcolumn'))
-    set colorcolumn=110
+    set colorcolumn=80
     highlight ColorColumn ctermbg=239 guibg=DarkGray
 endif
 
