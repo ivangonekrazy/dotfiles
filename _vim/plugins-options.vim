@@ -8,6 +8,9 @@ endtry
 " -- ctrlp
 let g:ctrlp_clear_cache_on_exit = 0
 
+" -- ctrlp
+nnoremap <Leader>nt :NERDTreeToggle<CR>
+
 " -- vim-gutter colorscheme
 highlight SignColumn            ctermbg=NONE guibg=NONE
 highlight GitGutterAdd          ctermbg=NONE ctermfg=29  guibg=NONE guifg=DarkGreen
