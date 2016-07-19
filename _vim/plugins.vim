@@ -22,10 +22,12 @@ Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdcommenter'
 Plug 'ntpeters/vim-better-whitespace'
 
+" workflow
+Plug 'tpope/vim-dispatch'
+
 " snippets
 "Plug 'SirVer/ultisnips'
-"Plug 'honza/vim-snippets'
-Plug 'mattn/emmet-vim'
+"Plug 'mattn/emmet-vim'
 Plug 'Raimondi/delimitMate'
 
 " navigation/search
