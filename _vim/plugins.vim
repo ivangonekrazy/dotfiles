@@ -36,6 +36,7 @@ Plug 'rking/ag.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'jlanzarotta/bufexplorer'
 
 " git
 Plug 'tpope/vim-fugitive'
