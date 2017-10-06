@@ -12,6 +12,9 @@ let g:ctrlp_clear_cache_on_exit = 0
 nnoremap <Leader>nt :NERDTreeToggle<CR>
 nnoremap <Leader>nr :NERDTreeFind<CR>
 
+" -- jedi-vim
+let g:jedi#popup_on_dot = 0
+
 " -- vim-gutter colorscheme
 highlight SignColumn            ctermbg=NONE guibg=NONE
 highlight GitGutterAdd          ctermbg=NONE ctermfg=29  guibg=NONE guifg=DarkGreen

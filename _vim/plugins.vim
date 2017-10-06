@@ -26,9 +26,9 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'tpope/vim-dispatch'
 
 " snippets
-"Plug 'SirVer/ultisnips'
 "Plug 'mattn/emmet-vim'
-Plug 'Raimondi/delimitMate'
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
 
 " navigation/search
 Plug 'kien/ctrlp.vim'
@@ -52,6 +52,9 @@ Plug 'vim-scripts/paredit.vim'
 
 " Golang
 Plug 'fatih/vim-go'
+
+" Python
+Plug 'davidhalter/jedi-vim'
 
 " misc. specific filetypes
 Plug 'plasticboy/vim-markdown'
