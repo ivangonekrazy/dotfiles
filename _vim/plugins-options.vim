@@ -8,6 +8,10 @@ endtry
 " -- ctrlp
 let g:ctrlp_clear_cache_on_exit = 0
 
+" -- fzf-vim
+nnoremap <Leader>ff :Files<CR>
+nnoremap <Leader>fb :Buffers<CR>
+
 " -- NERDTree
 nnoremap <Leader>nt :NERDTreeToggle<CR>
 nnoremap <Leader>nr :NERDTreeFind<CR>

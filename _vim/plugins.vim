@@ -38,6 +38,10 @@ Plug 'Lokaltog/vim-easymotion'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'jlanzarotta/bufexplorer'
 
+" fzf
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
+
 " git
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
