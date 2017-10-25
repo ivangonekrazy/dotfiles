@@ -25,6 +25,10 @@ highlight GitGutterAdd          ctermbg=NONE ctermfg=29  guibg=NONE guifg=DarkGr
 highlight GitGutterChange       ctermbg=NONE ctermfg=130 guibg=NONE guifg=Orange
 highlight GitGutterDelete       ctermbg=NONE ctermfg=196 guibg=NONE guifg=DarkRed
 highlight GitGutterChangeDelete ctermbg=NONE ctermfg=202 guibg=NONE guifg=Orange
+let g:gitgutter_sign_added = '»'
+let g:gitgutter_sign_removed = '«'
+let g:gitgutter_sign_modified = '■'
+let g:gitgutter_sign_modified_removed = '«■'
 
 " -- limelight/goyo
 let g:limelight_conceal_ctermfg = 240
