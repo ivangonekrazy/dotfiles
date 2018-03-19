@@ -26,7 +26,6 @@ Plug 'ntpeters/vim-better-whitespace'
 Plug 'tpope/vim-dispatch'
 
 " snippets
-"Plug 'mattn/emmet-vim'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
@@ -46,6 +45,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
+" HTML
+Plug 'mattn/emmet-vim', { 'for': 'html' }
+
 " Javascript
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 
@@ -59,6 +61,9 @@ Plug 'fatih/vim-go', { 'for': 'go' }
 
 " Python
 Plug 'davidhalter/jedi-vim', { 'for': 'python' }
+
+" Typescript
+Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
 
 " misc. specific filetypes
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
