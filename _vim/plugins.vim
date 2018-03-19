@@ -24,6 +24,7 @@ Plug 'ntpeters/vim-better-whitespace'
 
 " workflow
 Plug 'tpope/vim-dispatch'
+Plug 'tpope/vim-dadbod'
 
 " snippets
 Plug 'SirVer/ultisnips'
