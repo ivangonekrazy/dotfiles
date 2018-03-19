@@ -19,6 +19,7 @@ nnoremap <Leader>fg :GFiles?<CR>
 " -- NERDTree
 nnoremap <Leader>nt :NERDTreeToggle<CR>
 nnoremap <Leader>nr :NERDTreeFind<CR>
+let g:NERDTreeShowBookmarks = 1
 
 " -- jedi-vim
 let g:jedi#popup_on_dot = 0
