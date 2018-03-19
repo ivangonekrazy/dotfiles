@@ -9,8 +9,12 @@ endtry
 let g:ctrlp_clear_cache_on_exit = 0
 
 " -- fzf-vim
-nnoremap <Leader>ff :Files<CR>
+nnoremap <Leader>ff :GFiles<CR>
+nnoremap <Leader>fF :Files<CR>
+nnoremap <Leader>fl :BLines<CR>
+nnoremap <Leader>fL :Lines<CR>
 nnoremap <Leader>fb :Buffers<CR>
+nnoremap <Leader>fg :GFiles?<CR>
 
 " -- NERDTree
 nnoremap <Leader>nt :NERDTreeToggle<CR>
