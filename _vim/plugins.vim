@@ -45,29 +45,19 @@ Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 
-" HTML
-Plug 'mattn/emmet-vim', { 'for': 'html' }
-
-" Javascript
-Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
-
 " Clojure
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
 Plug 'vim-scripts/paredit.vim', { 'for': 'clojure' }
 
-" Golang
-Plug 'fatih/vim-go', { 'for': 'go' }
-
-" Python
+" specific filetypes
 Plug 'davidhalter/jedi-vim', { 'for': 'python' }
-
-" Typescript
-Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
-
-" misc. specific filetypes
-Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 Plug 'elzr/vim-json', { 'for': 'json' }
+Plug 'fatih/vim-go', { 'for': 'go' }
+Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
+Plug 'mattn/emmet-vim', { 'for': 'html' }
+Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
+Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
 
 call plug#end()
 
