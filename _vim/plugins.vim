@@ -31,8 +31,8 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
 " navigation/search
-Plug 'kien/ctrlp.vim'
-Plug 'rking/ag.vim'
+"Plug 'kien/ctrlp.vim'
+"Plug 'rking/ag.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'terryma/vim-multiple-cursors'

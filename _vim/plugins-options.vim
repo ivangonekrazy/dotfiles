@@ -8,13 +8,26 @@ endtry
 " -- ctrlp
 let g:ctrlp_clear_cache_on_exit = 0
 
-" -- fzf-vim
+" -- fugitive
+nnoremap <Leader>gs :Gstatus<CR>
+
+" -- fzf-vim - file and file content search
 nnoremap <Leader>ff :GFiles<CR>
 nnoremap <Leader>fF :Files<CR>
 nnoremap <Leader>fl :BLines<CR>
 nnoremap <Leader>fL :Lines<CR>
+
+" -- fzf-vim - vim interface search
 nnoremap <Leader>fb :Buffers<CR>
+nnoremap <Leader>fw :Windows<CR>
+nnoremap <Leader>fh :History:<CR>
+nnoremap <Leader>fs :History/<CR>
+nnoremap <Leader>fm :Maps<CR>
+
+" -- fzf-vim - git search
 nnoremap <Leader>fg :GFiles?<CR>
+nnoremap <Leader>fc :BCommits<CR>
+nnoremap <Leader>fC :Commits<CR>
 
 " -- NERDTree
 nnoremap <Leader>nt :NERDTreeToggle<CR>
