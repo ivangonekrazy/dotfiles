@@ -1,7 +1,7 @@
 " -- solarized personal conf
 set background=dark
 try
-    colorscheme solarized
+    colorscheme srcery
 catch
 endtry
 
@@ -28,6 +28,11 @@ nnoremap <Leader>fm :Maps<CR>
 nnoremap <Leader>fg :GFiles?<CR>
 nnoremap <Leader>fc :BCommits<CR>
 nnoremap <Leader>fC :Commits<CR>
+
+
+" -- GitGutter
+nnoremap <Leader>hn :GitGutterNextHunk<CR>
+nnoremap <Leader>hp :GitGutterPrevHunk<CR>
 
 " -- NERDTree
 nnoremap <Leader>nt :NERDTreeToggle<CR>

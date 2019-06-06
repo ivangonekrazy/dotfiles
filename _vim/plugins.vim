@@ -10,6 +10,7 @@ call plug#begin('~/.vim/plugged')
 " highlighting/colors
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'altercation/vim-colors-solarized'
+Plug 'srcery-colors/srcery-vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 
@@ -21,6 +22,7 @@ Plug 'tpope/vim-surround'
 Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdcommenter'
 Plug 'ntpeters/vim-better-whitespace'
+Plug 'vim-syntastic/syntastic'
 
 " workflow
 Plug 'tpope/vim-dispatch'
@@ -31,8 +33,6 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
 " navigation/search
-"Plug 'kien/ctrlp.vim'
-"Plug 'rking/ag.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'terryma/vim-multiple-cursors'
