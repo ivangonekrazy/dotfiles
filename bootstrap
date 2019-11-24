@@ -1,6 +1,11 @@
-git-core
+bat
+fzf
 gpg
 htop
+jq
+pyenv
+pyenv-virtualenv
 tig
 tmux
 vim
+wget
