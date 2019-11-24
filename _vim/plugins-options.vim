@@ -1,7 +1,7 @@
 " -- solarized personal conf
 set background=dark
 try
-    colorscheme srcery
+    colorscheme solarized
 catch
 endtry
 
