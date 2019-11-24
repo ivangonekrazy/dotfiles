@@ -26,11 +26,11 @@ Plug 'vim-syntastic/syntastic'
 
 " workflow
 Plug 'tpope/vim-dispatch'
-Plug 'tpope/vim-dadbod'
+"Plug 'tpope/vim-dadbod'
 
 " snippets
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
+" Plug 'SirVer/ultisnips'
+" Plug 'honza/vim-snippets'
 
 " navigation/search
 Plug 'scrooloose/nerdtree'
