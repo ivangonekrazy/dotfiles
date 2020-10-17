@@ -1,7 +1,8 @@
 " -- solarized personal conf
 set background=dark
 try
-    colorscheme solarized
+    " colorscheme solarized
+    colorscheme srcery
 catch
 endtry
 
@@ -29,7 +30,6 @@ nnoremap <Leader>fg :GFiles?<CR>
 nnoremap <Leader>fc :BCommits<CR>
 nnoremap <Leader>fC :Commits<CR>
 
-
 " -- GitGutter
 nnoremap <Leader>hn :GitGutterNextHunk<CR>
 nnoremap <Leader>hp :GitGutterPrevHunk<CR>
@@ -38,6 +38,9 @@ nnoremap <Leader>hp :GitGutterPrevHunk<CR>
 nnoremap <Leader>nt :NERDTreeToggle<CR>
 nnoremap <Leader>nr :NERDTreeFind<CR>
 let g:NERDTreeShowBookmarks = 1
+
+" -- Tagbar
+nnoremap <Leader>tt :TagbarToggle<CR>
 
 " -- jedi-vim
 let g:jedi#popup_on_dot = 0

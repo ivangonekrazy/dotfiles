@@ -7,10 +7,12 @@ endif
 
 call plug#begin('~/.vim/plugged')
 
-" highlighting/colors
-Plug 'kien/rainbow_parentheses.vim'
+" colorschemes
 Plug 'altercation/vim-colors-solarized'
 Plug 'srcery-colors/srcery-vim'
+
+" highlighting/colors
+Plug 'kien/rainbow_parentheses.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 
@@ -22,11 +24,9 @@ Plug 'tpope/vim-surround'
 Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdcommenter'
 Plug 'ntpeters/vim-better-whitespace'
-Plug 'vim-syntastic/syntastic'
 
 " workflow
 Plug 'tpope/vim-dispatch'
-"Plug 'tpope/vim-dadbod'
 
 " snippets
 " Plug 'SirVer/ultisnips'
@@ -34,28 +34,46 @@ Plug 'tpope/vim-dispatch'
 
 " navigation/search
 Plug 'scrooloose/nerdtree'
-Plug 'Lokaltog/vim-easymotion'
-Plug 'terryma/vim-multiple-cursors'
 Plug 'jlanzarotta/bufexplorer'
+Plug 'Lokaltog/vim-easymotion'
+Plug 'junegunn/vim-slash'
+Plug 'mg979/vim-visual-multi'
+
+" ctags/tagbar
+"" install ctags-exuberant with 'brew install ctags'
+Plug 'majutsushi/tagbar'
 
 " fzf
+" install fzf with 'brew install fzf'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 
 " git
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+Plug 'xuyuanp/nerdtree-git-plugin'
 
-" Clojure
+" linters/langserver support
+Plug 'vim-syntastic/syntastic'
+Plug 'w0rp/ale'
+
+" rust support
+Plug 'rust-lang/rust.vim'
+
+" python support
+" install jedi with 'pip install jedi'
+Plug 'davidhalter/jedi-vim', { 'for': 'python' }
+
+" golang support
+Plug 'fatih/vim-go', { 'for': 'go' }
+
+" clojure support
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
 Plug 'guns/vim-clojure-static', { 'for': 'clojure' }
 Plug 'vim-scripts/paredit.vim', { 'for': 'clojure' }
 
 " specific filetypes
-Plug 'davidhalter/jedi-vim', { 'for': 'python' }
 Plug 'elzr/vim-json', { 'for': 'json' }
-Plug 'fatih/vim-go', { 'for': 'go' }
-Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
 Plug 'mattn/emmet-vim', { 'for': 'html' }
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
 Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }

@@ -5,6 +5,7 @@ htop
 jq
 pyenv
 pyenv-virtualenv
+the_silver_searcher
 tig
 tmux
 vim
