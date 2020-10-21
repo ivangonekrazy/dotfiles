@@ -16,8 +16,13 @@ Plug 'kien/rainbow_parentheses.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 
-" formatting
+" themes
+Plug 'altercation/vim-colors-solarized'
+Plug 'srcery-colors/srcery-vim'
+
+" formatting tools
 Plug 'editorconfig/editorconfig-vim'
+Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-ragtag'
 Plug 'tpope/vim-surround'

@@ -6,9 +6,6 @@ try
 catch
 endtry
 
-" -- ctrlp
-let g:ctrlp_clear_cache_on_exit = 0
-
 " -- fugitive
 nnoremap <Leader>gs :Gstatus<CR>
 
@@ -44,6 +41,25 @@ nnoremap <Leader>tt :TagbarToggle<CR>
 
 " -- jedi-vim
 let g:jedi#popup_on_dot = 0
+
+" -- syntastic
+nnoremap <Leader>ss :SyntasticCheck<CR>
+let g:syntastic_python_checkers = ["pyflakes"]
+let g:syntastic_javascript_checkers = ["eslint"]
+let g:syntastic_loc_list_height = 5
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
+
+" -- ALE
+nnoremap <Leader>af :ALEFix<CR>
+nnoremap <Leader>at :ALEToggle<CR>
+let g:ale_set_loclist = 0
+let g:ale_set_quickfix = 1
+let g:ale_open_list = 1
+let g:ale_list_window_size = 5
+let g:ale_linters = { 'python': ['pyflakes'] }
+let g:ale_fixers = { 'javascript': ['eslint'] }
 
 " -- vim-gutter colorscheme
 highlight SignColumn            ctermbg=NONE guibg=NONE

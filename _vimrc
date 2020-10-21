@@ -31,6 +31,12 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 
+" filetype sensitive options
+autocmd FileType python set smartindent cinwords=if,elif,else,for,while,with,try,except,finally,def,class
+autocmd FileType html setlocal tabstop=2 softtabstop=2 shiftwidth=2
+autocmd FileType ruby setlocal tabstop=2 softtabstop=2 shiftwidth=2
+autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
+
 " line width
 if (exists('+colorcolumn'))
     set colorcolumn=80
@@ -72,10 +78,4 @@ source ~/.vim/plugins.vim
 
 " load plugin options
 source ~/.vim/plugins-options.vim
-
-" filetype sensitive options
-autocmd FileType python set smartindent cinwords=if,elif,else,for,while,with,try,except,finally,def,class
-autocmd FileType html setlocal tabstop=2 softtabstop=2 shiftwidth=2
-autocmd FileType ruby setlocal tabstop=2 softtabstop=2 shiftwidth=2
-autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
 
