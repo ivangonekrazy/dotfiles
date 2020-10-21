@@ -60,7 +60,7 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 
 " linters/langserver support
 Plug 'vim-syntastic/syntastic'
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 
 " rust support
 Plug 'rust-lang/rust.vim'
