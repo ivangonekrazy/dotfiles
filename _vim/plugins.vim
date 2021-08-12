@@ -41,6 +41,7 @@ Plug 'tpope/vim-dispatch'
 Plug 'scrooloose/nerdtree'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'Lokaltog/vim-easymotion'
+Plug 'justinmk/vim-sneak'
 Plug 'junegunn/vim-slash'
 Plug 'mg979/vim-visual-multi'
 
@@ -59,7 +60,6 @@ Plug 'airblade/vim-gitgutter'
 Plug 'xuyuanp/nerdtree-git-plugin'
 
 " linters/langserver support
-Plug 'vim-syntastic/syntastic'
 Plug 'dense-analysis/ale'
 
 " rust support

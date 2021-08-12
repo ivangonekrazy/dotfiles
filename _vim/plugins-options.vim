@@ -20,7 +20,8 @@ nnoremap <Leader>fb :Buffers<CR>
 nnoremap <Leader>fw :Windows<CR>
 nnoremap <Leader>fh :History:<CR>
 nnoremap <Leader>fs :History/<CR>
-nnoremap <Leader>fm :Maps<CR>
+nnoremap <Leader>fm :Marks<CR>
+nnoremap <Leader>fM :Maps<CR>
 
 " -- fzf-vim - git search
 nnoremap <Leader>fg :GFiles?<CR>
@@ -36,30 +37,28 @@ nnoremap <Leader>nt :NERDTreeToggle<CR>
 nnoremap <Leader>nr :NERDTreeFind<CR>
 let g:NERDTreeShowBookmarks = 1
 
+" -- vim-sneak
+let g:sneak#label = 1
+
 " -- Tagbar
 nnoremap <Leader>tt :TagbarToggle<CR>
 
 " -- jedi-vim
 let g:jedi#popup_on_dot = 0
 
-" -- syntastic
-nnoremap <Leader>ss :SyntasticCheck<CR>
-let g:syntastic_python_checkers = ["pyflakes"]
-let g:syntastic_javascript_checkers = ["eslint"]
-let g:syntastic_loc_list_height = 5
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 0
-let g:syntastic_check_on_wq = 0
-
 " -- ALE
+nnoremap <Leader>ad :ALEDetail<CR>
 nnoremap <Leader>af :ALEFix<CR>
+nnoremap <Leader>al :ALELint<CR>
 nnoremap <Leader>at :ALEToggle<CR>
+nnoremap <Leader>an :ALENext<CR>
+nnoremap <Leader>ap :ALEPrevious<CR>
 let g:ale_set_loclist = 0
 let g:ale_set_quickfix = 1
 let g:ale_open_list = 1
 let g:ale_list_window_size = 5
-let g:ale_linters = { 'python': ['pyflakes'] }
-let g:ale_fixers = { 'javascript': ['eslint'] }
+let g:ale_linters = { 'javascript': ['eslint'], 'python': ['mypy', 'bandit', 'pyls'] }
+let g:ale_fixers = { 'javascript': ['eslint'], 'python': ['black'] }
 
 " -- vim-gutter colorscheme
 highlight SignColumn            ctermbg=NONE guibg=NONE

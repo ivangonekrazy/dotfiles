@@ -14,6 +14,7 @@ set nobackup
 " messages, info
 set title
 set ruler
+set number
 set visualbell
 
 " syntax, highlighting
@@ -36,10 +37,11 @@ autocmd FileType python set smartindent cinwords=if,elif,else,for,while,with,try
 autocmd FileType html setlocal tabstop=2 softtabstop=2 shiftwidth=2
 autocmd FileType ruby setlocal tabstop=2 softtabstop=2 shiftwidth=2
 autocmd FileType javascript setlocal tabstop=2 softtabstop=2 shiftwidth=2
+autocmd FileType markdown setlocal tabstop=2 softtabstop=2 shiftwidth=2
 
 " line width
 if (exists('+colorcolumn'))
-    set colorcolumn=80
+    set colorcolumn=120
     highlight ColorColumn ctermbg=239 guibg=DarkGray
 endif
 
