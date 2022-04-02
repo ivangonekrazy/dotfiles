@@ -2,7 +2,8 @@
 set background=dark
 try
     " colorscheme solarized
-    colorscheme srcery
+    " colorscheme srcery
+    colorscheme deus
 catch
 endtry
 

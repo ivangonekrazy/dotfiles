@@ -10,6 +10,9 @@ call plug#begin('~/.vim/plugged')
 " colorschemes
 Plug 'altercation/vim-colors-solarized'
 Plug 'srcery-colors/srcery-vim'
+Plug 'NLKNguyen/papercolor-theme'
+Plug 'sainnhe/everforest'
+Plug 'ajmwagar/vim-deus'
 
 " highlighting/colors
 Plug 'kien/rainbow_parentheses.vim'
