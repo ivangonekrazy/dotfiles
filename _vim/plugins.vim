@@ -24,18 +24,10 @@ Plug 'srcery-colors/srcery-vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-repeat'
-Plug 'tpope/vim-ragtag'
 Plug 'tpope/vim-surround'
 Plug 'junegunn/vim-easy-align'
 Plug 'scrooloose/nerdcommenter'
 Plug 'ntpeters/vim-better-whitespace'
-
-" workflow
-Plug 'tpope/vim-dispatch'
-
-" snippets
-" Plug 'SirVer/ultisnips'
-" Plug 'honza/vim-snippets'
 
 " navigation/search
 Plug 'scrooloose/nerdtree'
@@ -63,11 +55,12 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'dense-analysis/ale'
 
 " rust support
-Plug 'rust-lang/rust.vim'
+Plug 'rust-lang/rust.vim', { 'for': 'rust' }
 
 " python support
 " install jedi with 'pip install jedi'
 Plug 'davidhalter/jedi-vim', { 'for': 'python' }
+Plug 'alfredodeza/pytest.vim', { 'for': 'python' }
 
 " golang support
 Plug 'fatih/vim-go', { 'for': 'go' }
@@ -81,7 +74,6 @@ Plug 'vim-scripts/paredit.vim', { 'for': 'clojure' }
 Plug 'elzr/vim-json', { 'for': 'json' }
 Plug 'mattn/emmet-vim', { 'for': 'html' }
 Plug 'pangloss/vim-javascript', { 'for': 'javascript' }
-Plug 'plasticboy/vim-markdown', { 'for': 'markdown' }
+Plug 'preservim/vim-markdown', { 'for': 'markdown' }
 
 call plug#end()
-

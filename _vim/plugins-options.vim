@@ -7,13 +7,14 @@ catch
 endtry
 
 " -- fugitive
-nnoremap <Leader>gs :Gstatus<CR>
+nnoremap <Leader>gs :Git<CR>
 
 " -- fzf-vim - file and file content search
 nnoremap <Leader>ff :GFiles<CR>
 nnoremap <Leader>fF :Files<CR>
 nnoremap <Leader>fl :BLines<CR>
 nnoremap <Leader>fL :Lines<CR>
+nnoremap <Leader>ft :BTags<CR>
 
 " -- fzf-vim - vim interface search
 nnoremap <Leader>fb :Buffers<CR>
@@ -46,6 +47,12 @@ nnoremap <Leader>tt :TagbarToggle<CR>
 " -- jedi-vim
 let g:jedi#popup_on_dot = 0
 
+" -- Pytest
+nnoremap <silent><Leader>pp <Esc>:Pytest project<CR>
+nnoremap <silent><Leader>pt <Esc>:Pytest file<CR>
+nnoremap <silent><Leader>pc <Esc>:Pytest class<CR>
+nnoremap <silent><Leader>pm <Esc>:Pytest method<CR>
+
 " -- ALE
 nnoremap <Leader>ad :ALEDetail<CR>
 nnoremap <Leader>af :ALEFix<CR>
@@ -57,8 +64,16 @@ let g:ale_set_loclist = 0
 let g:ale_set_quickfix = 1
 let g:ale_open_list = 1
 let g:ale_list_window_size = 5
-let g:ale_linters = { 'javascript': ['eslint'], 'python': ['mypy', 'bandit', 'pyls'] }
-let g:ale_fixers = { 'javascript': ['eslint'], 'python': ['black'] }
+let g:ale_python_black_options = "--skip-string-normalization --line-length 120"
+let g:ale_linters = {
+    \ 'javascript': ['eslint'],
+    \ 'python': ['mypy', 'flake8', 'bandit', 'pyls']
+    \ }
+let g:ale_fixers = {
+    \ '*': ['remove_trailing_lines', 'trim_whitespace'],
+    \ 'javascript': ['eslint'],
+    \ 'python': ['black']
+    \ }
 
 " -- vim-gutter colorscheme
 highlight SignColumn            ctermbg=NONE guibg=NONE
@@ -70,6 +85,9 @@ let g:gitgutter_sign_added = '»'
 let g:gitgutter_sign_removed = '«'
 let g:gitgutter_sign_modified = '■'
 let g:gitgutter_sign_modified_removed = '«■'
+
+" -- vim-markdown
+let g:vim_markdown_new_list_item_indent = 2
 
 " -- limelight/goyo
 let g:limelight_conceal_ctermfg = 240
