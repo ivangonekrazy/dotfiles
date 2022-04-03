@@ -16,19 +16,18 @@ nnoremap <Leader>fF :Files<CR>
 nnoremap <Leader>fl :BLines<CR>
 nnoremap <Leader>fL :Lines<CR>
 nnoremap <Leader>ft :BTags<CR>
+nnoremap <Leader>fj :BLines <C-R><C-W><CR>
+nnoremap <Leader>fJ :Lines <C-R><C-W><CR>
+nnoremap <Leader>fm :Marks<CR>
+nnoremap <Leader>rg :Rg <C-R><C-W><CR>
 
 " -- fzf-vim - vim interface search
 nnoremap <Leader>fb :Buffers<CR>
 nnoremap <Leader>fw :Windows<CR>
 nnoremap <Leader>fh :History:<CR>
-nnoremap <Leader>fs :History/<CR>
-nnoremap <Leader>fm :Marks<CR>
 nnoremap <Leader>fM :Maps<CR>
-
-" -- fzf-vim - git search
-nnoremap <Leader>fg :GFiles?<CR>
-nnoremap <Leader>fc :BCommits<CR>
-nnoremap <Leader>fC :Commits<CR>
+nnoremap <Leader>f<Space> :Commands<CR>
+nnoremap <Leader>f? :Help<CR>
 
 " -- GitGutter
 nnoremap <Leader>hn :GitGutterNextHunk<CR>
@@ -49,10 +48,10 @@ nnoremap <Leader>tt :TagbarToggle<CR>
 let g:jedi#popup_on_dot = 0
 
 " -- Pytest
-nnoremap <silent><Leader>pp <Esc>:Pytest project<CR>
-nnoremap <silent><Leader>pt <Esc>:Pytest file<CR>
-nnoremap <silent><Leader>pc <Esc>:Pytest class<CR>
-nnoremap <silent><Leader>pm <Esc>:Pytest method<CR>
+nnoremap <Leader>pp <Esc>:Pytest project<CR>
+nnoremap <Leader>pt <Esc>:Pytest file<CR>
+nnoremap <Leader>pc <Esc>:Pytest class<CR>
+nnoremap <Leader>pm <Esc>:Pytest method<CR>
 
 " -- ALE
 nnoremap <Leader>ad :ALEDetail<CR>
