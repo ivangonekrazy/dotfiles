@@ -9,8 +9,7 @@ _VIMRC="$HOME/.vimrc"
 if [ -e $VIMRC ]
 then
 	echo "Backing up $VIMRC..."
-	cp $_VIMRC $_VIMRC-$CURRENT_DATE
-    rm $_VIMRC
+	mv $_VIMRC $_VIMRC-$CURRENT_DATE
 fi
 
 echo "Linking .vimrc ..."
@@ -22,12 +21,23 @@ _VIM_DIR="$HOME/.vim"
 if [ -e $_VIM_DIR ]
 then
 	echo "Backing up $_VIM_DIR..."
-	cp -r $_VIM_DIR $_VIM_DIR-$CURRENT_DATE
-    rm -rf $_VIM_DIR
+	mv $_VIM_DIR $_VIM_DIR-$CURRENT_DATE
 fi
 
 echo "Linking .vim/ ..."
 ln -s $PWD/_vim $_VIM_DIR
+
+#########################
+# install .config/nvim/
+NVIM_DIR="$HOME/.config/nvim"
+if [ -e $NVIM_DIR ]
+then
+	echo "Backing up $NVIM_DIR..."
+	mv $NVIM_DIR $NVIM_DIR-$CURRENT_DATE
+fi
+
+echo "Linking .confog/nvim/ ..."
+ln -s $PWD/_config_nvim $NVIM_DIR
 
 #########################
 # install .tmux.conf
@@ -35,8 +45,7 @@ _TMUX_CONF="$HOME/.tmux.conf"
 if [ -e $_TMUX_CONF ]
 then
 	echo "Backing up $TMUX_CONF..."
-	cp $_TMUX_CONF $_TMUX_CONF-$CURRENT_DATE
-    rm $_TMUX_CONF
+	mv $_TMUX_CONF $_TMUX_CONF-$CURRENT_DATE
 fi
 
 echo "Linking .tmux.conf ..."
